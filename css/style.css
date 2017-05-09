@@ -1,0 +1,103 @@
+.first_page{
+	background: url("../img/first_page_dark.jpg") 50% 0 no-repeat fixed;
+	height: 90vh;
+}
+.second_page{
+	background: url("../img/second_page.jpg") 50% 0 no-repeat fixed;
+	height: 100vh;
+}
+.third_page{
+	background: url("../img/third_page_dark.jpg") 50% 0 no-repeat fixed;
+	height: 100vh;
+}
+.fourth_page{
+	background: url("../img/fourth_page.jpg") 50% 0 no-repeat fixed;
+	height: 100vh;
+}
+.logo{
+	width: 200px;
+	height: 200px;
+}
+.is-color-black{
+	color: black;
+}
+.navbar{
+	border-radius: 0!important;
+	max-height: 50px!important;
+}
+.margin-top-30{
+	margin-top: 30px;
+}
+li {
+  position: relative;
+}
+
+li:hover .dropdown {
+	position: absolute;
+  display: block;
+	background-color: #222222;
+	padding: 15px;
+	width: 200px!important;
+	margin-top: -5px!important;
+}
+li:hover .tester{
+	margin-top: 20px;!important;
+}
+
+
+
+.dropdown {
+  display: none;
+}
+a{
+	color: #9d9d9d!important;
+	text-decoration: none;
+}
+.test{
+	z-index: 1;
+}
+.z-1{
+	z-index: 1;
+	padding-top: 50px!important;
+}
+.z-5{
+	z-index: 5;
+}
+.background_color{
+	background-color: white;
+}
+.margin-top-22 {
+	margin:-22px 0;
+}
+.margin-top-10 {
+	margin:-10px 0;
+}
+.background_black{
+	background-color: #FFE7BA;
+	/*1C1C1C*/
+}
+.margin-top_10 {
+	margin: 10px 0;
+}
+.margin-bottom_20 {
+	margin-bottom: 20px;
+}
+.footer_style {
+    background: #1C1C1C;
+    height: 150px;
+    color: #B5B5B5;
+    padding: 20px;
+}
+.logo_style {
+	float: left;
+	clear: left;
+	margin-left: 50px;
+	margin-right: 30px;
+}
+/*********** slider ************/
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 540px;
+        height: 547px!important;
+      margin: auto;
+  }
